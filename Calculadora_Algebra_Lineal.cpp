@@ -1,5 +1,4 @@
 #include <iostream>
-#include <conio.h>
 #include <iomanip>
 
 using namespace std;
@@ -14,7 +13,9 @@ void calcularInversa(double matriz[A][A], double inversa[A][A]);
 
 int main() {
     menu();
-    getch();
+    cout << "\nPresione Enter para salir...";
+    cin.ignore();
+    cin.get();
     return 0;
 }
 
